@@ -1,6 +1,6 @@
 <div class="side_ber_header">
   <div class="header-name">
-    <%=link_to "名前が入る", root_path %>
+    <%=link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="create_room">
     <%=link_to "チャットを作成する", root_path %>
