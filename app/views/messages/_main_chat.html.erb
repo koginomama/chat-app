@@ -9,38 +9,9 @@
     </div>
   </div>
 </div>
-<div class="chat_messages">
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        名前
-      </div>
-      <div class="message-date">
-        2022/01/01~
-      </div>
-    </div>
-    <div class="lower-message">
-      <div class="message-content">
-        こんにちわ
-      </div>
-    </div>
-  </div>
+<div class="messages">
+<%= render partial: 'message', collection: @messages %>
 
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        名前
-      </div>
-      <div class="message-date">
-        2022/01/01~
-      </div>
-    </div>
-    <div class="lower-message">
-      <div class="message-content">
-        こんにちわ
-      </div>
-    </div>
-  </div>
 </div>
 
 
