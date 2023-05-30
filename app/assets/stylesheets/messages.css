@@ -88,7 +88,7 @@
 
 /**********チャットhaeder**********/
 
-.chat_messages{
+.messages{
   height: calc(100% - 100px - 90px);
   background-color: #fafafa;
   padding: 46px 40px 0;
@@ -127,34 +127,34 @@
 
 /**********チャットfrom**********/
 
-.chat_form{
+.form{
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
   display: flex;
 }
 
-.from_input {
+.form-input {
   background-color: white;
   width: 100%;
   display: flex;
 }
 
-.form_message{
+.form-message {
+  border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
-  border: none;
 }
 
-.form_submit{
-  height: 50px;
-  padding: 0 20px;
-  background-color: #38aef0;
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
   color: white;
   font-size: 16px;
+  height: 50px;
   margin-left: 15px;
-  border: none;
+  padding: 0 20px;
 }
 
 .form-image {
@@ -169,4 +169,8 @@
 
 .hidden {
   display: none;
+}
+
+.field_with_errors {
+  display: contents;
 }
